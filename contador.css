@@ -1,0 +1,34 @@
+body{
+    background-color: #e4e2f5;
+}
+
+h1{
+    color: #2a2835;
+    font: Arial;
+}
+
+hr{
+    border: 1px solid #2a2835;
+    margin-bottom: 15px;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.resposta{
+    display: flex;
+}
+
+.resposta p{
+    margin: 10px 20px 10px 0px;
+    color: #2a2835;
+}
+
+textarea{
+    background-color: #d4d0eb;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgb(117, 120, 121);
+}
