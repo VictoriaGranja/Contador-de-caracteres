@@ -5,6 +5,7 @@ body{
 h1{
     color: #010101;
     font: Arial;
+    font-family: 'Poppins', sans-serif;
 }
 
 hr{
@@ -16,6 +17,7 @@ hr{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 .resposta{
@@ -27,9 +29,15 @@ hr{
     color: #010101;
 }
 
+#texto{
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+}
+
 textarea{
     background-color: #f1f2f8;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
-    /*border: 1px solid rgb(117, 120, 121);*/
     border: none;
+    height: 400px;
+    width: 700px;
 }
